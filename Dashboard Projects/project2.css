@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500&family=Rubik+Maze&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 90vw;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: black;
+    margin:20px 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:25px;
+}
+.bx1{
+    width: 26vw;
+    height: 250px;
+    background-color: #212023;
+    padding: 20px;
+    color: white;
+}
+.r1{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.l{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1{
+    background-color:#9e37aa;
+}
+.c2{
+    background-color:#017fdd;
+}
+.c3{
+    background-color:#f6c544;
+}
+.c4{
+    background-color: #40d774;
+}
+.c5{
+    background-color:#ecaf02;
+}
+.c6{
+    background-color:#f74539;
+}
+.r2{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.r3{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: flex-start;
+    padding-top: 35px;
+    padding-left: 10px;
+
+}
