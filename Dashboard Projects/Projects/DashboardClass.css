@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500&family=Rubik+Maze&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.dashboard{
+    width: 75vw;
+    height: 92vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin: 30px 125px;
+}
+.land{
+    display: grid;
+    grid-template-rows: 100px;
+    border: 14px solid #609aa7;
+    border-radius: 0 10px 10px 0;
+}
+.hPhotos{
+    display: flex;
+    flex-direction: row;
+}
+.Bmain{
+    background-color: white;
+    border-radius:20px;
+}
+.main{
+    background-color: white;
+    display: grid;
+    height: 112%;
+    width: 102%;
+    position: relative;
+    left: -8px;
+    top: -50px;
+    border-radius: 20px;
+    padding: 25px;
+    gap: 20px;
+    grid-template-areas: 
+    "t"
+    "r"
+    "p"
+    "o"
+    "y";
+    
+}
+@media screen and (min-width:600px)  {
+.main{
+    background-color: white;
+    display: grid;
+    height: 112%;
+    width: 102%;
+    position: relative;
+    left: -8px;
+    top: -50px;
+    border-radius: 20px;
+    padding: 25px;
+    gap: 20px;
+    grid-template-areas: 
+    "t t r"
+    " p o y";
+}
+.dashboard{
+    width:75vw ;
+    height: 92vh;
+    grid-template-columns:50px 1fr;
+}
+.toady{
+    height: 100px;
+    width: 100px;
+}
+.region{
+    height: 100px;
+}
+.rate{
+    height: 150px;
+    width: 100px;
+}
+.perContent{
+    width: 100px;
+}
+}
+.ontoday{
+    height: 50px;
+    width: 160px;
+    background-color:#2a7c97 ;
+    position: absolute;
+    top: 240px;
+    left: 390px;
+    border-radius: 40px 0 15px 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.toady{
+    grid-area: t;
+    height: 250px;
+    width: 510px;
+    background-color: #609aa7;
+    background-image: url(../Assets/man.png);
+    background-position: 180px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.today-inside{
+    display: flex;
+    gap: 5px;
+}
+.todayBox{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #96b9c2;
+    text-align: center;
+    padding: 5px;
+}
+.rate{
+    height: 250px;
+    width: 250px;
+    grid-area: r;
+    background-color: #f7d3c2;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(../Assets/rateimg.png);
+    background-repeat: no-repeat;
+    background-position: 90px 30px;
+    background-size:170px 110px;
+}
+.sup{
+    display: flex;
+    gap: 5px;
+}
+.supcir{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+    font-size:13px;
+}
+.ratebox{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 7px;
+}
+.play{
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    background-color:#fe9e54 ;
+    color: white;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.performance{
+    height:150px;
+    grid-area: p;
+    background-color:white;
+}
+.perContent{
+    width: 100%;
+    height: 80%;
+    background-color: #f4f4f4 ;
+    border-radius: 10px;
+    padding: 10px;
+}
+.perR1{
+    display: flex;
+    justify-content: space-between;
+}
+.bfrDollar{
+    display: flex;
+    gap: 5px;
+}
+.dollar{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #2a7c97;
+}
+.disp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calenderBx{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:white;
+}
+.months{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+}
+.empty{
+    height: 10px;
+    width: 6px;
+    background-color: #f7d3c2;
+    border-radius: 2px 2px 0px 0px;
+}
+.efeb{
+    height: 30px;
+}
+.fill{
+    height: 30px;
+    width: 6px;
+    background-color: #2a7c97;
+    border-radius:2px ;
+}
+.ffeb{
+    height: 10px;
+}
+.top{
+    grid-area: o;
+    padding: 5px;
+}
+.photo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url(../Assets/profesional.png);
+    background-size: cover;
+}
+.TopBx{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#fdf5ef;
+    color:#cdb1a3 ;
+}
+.region{
+    grid-area: y;
+    height: 150px;
+}
+.regionbx{
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../Assets/target.png);
+    background-repeat: no-repeat;
+    background-size: 90% 91%;
+}
+
+
+.sidebar{
+    background-color:#609aa7;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+}
+.sidecir{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #609aa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideimg{
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    background-image: url(../Assets/profesional.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 65px;
+    background-color: #609aa7;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+
+}
+.cir{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    align-items: center;
+}
+.back{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    gap: 55px;
+}
+.menu-link{
+    color:whitesmoke;
+    font-size: 10px;
+    font-weight: bold;
+}

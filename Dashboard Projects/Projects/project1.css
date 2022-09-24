@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500&family=Rubik+Maze&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #fde2f1;
+    border-radius: 10px;
+}
+
+#main{
+    margin: 20px;
+    width: 90vw;
+    height: 90vh;
+    background-color: #624eb0;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+}
+.left{
+    height: 100%;
+    width: 60%;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    gap: 30px;
+}
+.search{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-content: space-between;
+}
+.search-head{
+    width: 100%;
+    display: flex;
+    color: rgba(255,255,255, 0.7);
+    position: relative;
+    left: 50px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.box-1{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    
+}
+.box{
+    height: 90px;
+    width: 100px;
+    border-radius: 10px;
+    border:1px solid white;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d{
+    background-color: #624eb0;
+}
+.g{
+    background-image: url(../Assets/grey.png);
+    background-size: cover;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(../Assets/recipes.png);
+    background-size: cover;
+}
+.rc1{
+    height: 70%;
+    width: 160px;
+}
+.rc2{
+    height: 20%;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.7) ;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ins{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+    justify-content: center;
+    align-content: center;
+}
+.p{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+}
+.ph{
+    background-image: url(../Assets/phone.png);
+    background-size: cover;
+}
+.c{
+    background-color: white;
+    color: blue;
+}
+.i{
+    height: 50%;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    background-color: #ffede7;
+}
+.explorer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.itm{
+    display: flex;
+    gap: 20px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    bottom: -30px;
+    z-index: 0;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    }
+.one{
+    height: 10%;
+    display: flex;
+    color: black;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.two{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding-top:50px;
+    padding-left: 30px;
+}
+.circ{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:#fca4d6;
+}
+.three{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.bxs{
+    width: 140px;
+    height: 160px;
+    background-color: #fca4d6;
+    border-radius: 15px;
+}
+.fst{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Assets/sky.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.fst1{
+    height: 70%;
+}
+.fst2{
+    height: 25%;
+    width: 125px;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.snd{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+.thrd{
+    background-color: #d7edff;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    flex-direction: column;
+    padding:0px 10px ;
+}
+.four{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content:center;
+    align-content:flex-start;
+    padding-left: 25px;
+}
+.fr{
+    height: 50px;
+    width: 35%;
+    background-color: plum;
+    border-radius: 15px;
+    background-image: url(../Assets/music.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
